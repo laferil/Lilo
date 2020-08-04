@@ -1,6 +1,6 @@
 # Lilo
 
-Lilo (Little Loader) is a lightweight and simple loading overlay. There are no frills, dependencies, animations (other than the built in UIActivityIndicatorView), or bloat. It adds an overlay directly to the UIWindow so you don't have to manually block navigation or user interaction.
+Lilo (Little Loader) is a lightweight and simple loading overlay for iOS. There are no frills, dependencies, animations (other than the built in UIActivityIndicatorView), or bloat. It adds an overlay directly to the UIWindow so you don't have to manually block navigation or user interaction.
 
 ### Preview
 ![Alt Text](https://github.com/laferil/Lilo/raw/master/demo.gif)
