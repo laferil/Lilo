@@ -11,7 +11,9 @@ It's as simple as this:
 import Lilo
 
 Lilo.show()
+
 // Do some stuff
+
 Lilo.hide()
 ```
 
@@ -24,6 +26,10 @@ Lilo.show(loaderStyle: .solid(.systemBackground),
           width: 75, 
           height: 75, 
           animated: true)
+          
+// Do some stuff
+
+Lilo.hide(animated: true)
 ```
 
 #### Swift Package Manager (SPM)
