@@ -32,6 +32,7 @@ Lilo.show(loaderStyle: .solid(.systemBackground),
 Lilo.hide(animated: true)
 ```
 
+### Installation
 #### Swift Package Manager (SPM)
 
 In an effort to be as light as possible only Swift Package Manager is supported. Everything else is a little too heavy for something like this. To integrate using Xcode:
