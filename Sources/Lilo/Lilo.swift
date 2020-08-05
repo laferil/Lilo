@@ -22,6 +22,7 @@ public class Lilo {
     public static func show(loaderStyle: LoaderStyle = .solid(.systemBackground), cornerStyle: CornerStyle = .rounded(16), backgroundStyle: BackgroundStyle = .translucent(.black), width: CGFloat = 75, height: CGFloat = 75, animated: Bool = true) {
         DispatchQueue.main.async {
             let window = UIApplication.shared.windows.first!
+            guard window.subviewWith(tag: BACKGROUND_TAG) == nil else { return } // Prevent duplicating the overlay if we are already showing
             
             // Create background
             let backgroundView = UIView()
